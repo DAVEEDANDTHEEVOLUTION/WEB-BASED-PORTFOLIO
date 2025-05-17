@@ -16,6 +16,14 @@
 
 
 
+@font-face {
+  font-family: 'sf pro';
+  src: url('fonts/sf.otf') format('otf'),
+       url('fonts/sf.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 :root {
   --bg: #fef600;      
@@ -58,7 +66,7 @@ html {
 
 
 body {
-  font-family: helvetica;
+  font-family: 'sf pro';
   font-weight: 400;
   font-size: medium;
   text-rendering: optimizeLegibility;
